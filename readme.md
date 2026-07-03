@@ -1,6 +1,6 @@
-# SieWeb Python Client
+# Schola Python Client
 
-A lightweight, programmatic Python client for the **SieWeb** portal of Colegio Parroquial "Santa Rosa de Lima" (and other schools running on SieWeb). 
+A lightweight, programmatic Python client for the **Schola** portal of Colegio (and other schools running on Schola). 
 It reverse-engineers internal API endpoints to read messages from the "Mensajería" (inbox) section **without browser automation**.
 
 ## Features
