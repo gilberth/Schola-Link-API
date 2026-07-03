@@ -52,13 +52,13 @@ This will authenticate, display the last 20 messages from the Inbox, apply keywo
 ## Programmatic Usage
 
 ```python
-from sieweb_client import SieWebClient
+from Schola_client import Schola
 
 # Initialize the client (loads credentials)
-client = SieWebClient(school_name="santarosadelima")
+client = ScholaClient(school_name="Schola")
 
 # Login
-if client.login(username="f20240005", password="your_password"):
+if client.login(username="user", password="your_password"):
     print("Logged in!")
 
     # 1. Fetch inbox messages (Recibidos)
