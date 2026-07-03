@@ -34,7 +34,7 @@ It reverse-engineers internal API endpoints to read messages from the "Mensajer√
 Create a `.env` file in the root directory to store your credentials (do not commit this file to version control):
 
 ```env
-SIEWEB_SCHOOL=santarosadelima
+SIEWEB_SCHOOL=Schola
 SIEWEB_USER=your_username
 SIEWEB_PASS=your_password
 ```
