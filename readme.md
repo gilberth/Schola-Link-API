@@ -93,7 +93,7 @@ A secured FastAPI wrapper is included in `app.py`. This web application exposes 
 1. Set the API Key and credentials in your `.env` file:
    ```env
    HERMES_API_KEY=your_secure_api_key_for_bot
-   SIEWEB_SCHOOL=santarosadelima
+   SIEWEB_SCHOOL=sancolegio
    SIEWEB_USER=your_username
    SIEWEB_PASS=your_password
    ```
@@ -113,7 +113,7 @@ A secured FastAPI wrapper is included in `app.py`. This web application exposes 
    * **Build Command**: `pip install -r requirements.txt`
    * **Start Command**: `uvicorn app:app --host 0.0.0.0 --port $PORT`
 4. Under **Environment Variables**, add:
-   * `SIEWEB_SCHOOL`: `santarosadelima` (or your school)
+   * `SIEWEB_SCHOOL`: `sancolegio` (or your school)
    * `SIEWEB_USER`: `your_school_username`
    * `SIEWEB_PASS`: `your_school_password`
    * `HERMES_API_KEY`: `a_very_long_secure_token_for_hermes`
