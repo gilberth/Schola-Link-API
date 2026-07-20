@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "schola-link-api" generated at 2026-07-20T02:13:04.636Z.

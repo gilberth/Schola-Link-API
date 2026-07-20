@@ -1,0 +1,21 @@
+name = "schola-link-api"
+main = "src/index.ts"
+compatibility_date = "2026-07-19"
+
+[observability]
+enabled = true
+
+[durable_objects]
+bindings = [
+  { name = "SIEWEB_SESSION", class_name = "SieWebSession" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SieWebSession"]
+
+# Secrets (set via `wrangler secret put`):
+# - SIEWEB_SCHOOL
+# - SIEWEB_USER
+# - SIEWEB_PASS
+# - HERMES_API_KEY
